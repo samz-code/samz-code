@@ -1,427 +1,465 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Code, Palette, Database, Blocks, Mail, Linkedin, Facebook, Instagram, Globe, ChevronRight, Sparkles, ExternalLink, Award, Target, Zap, Users, Briefcase, Star } from 'lucide-react';
+<div align="center">
 
-const AnimatedPortfolio = () => {
-  const [activeCard, setActiveCard] = useState(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [scrollY, setScrollY] = useState(0);
-  const containerRef = useRef(null);
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Samuel%20Emoni&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" />
 
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      if (containerRef.current) {
-        const rect = containerRef.current.getBoundingClientRect();
-        setMousePos({
-          x: (e.clientX - rect.left - rect.width / 2) / 20,
-          y: (e.clientY - rect.top - rect.height / 2) / 20
-        });
-      }
-    };
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Creative+Technologist+%7C+Designer;Full-Stack+Developer;AI+%26+Blockchain+Enthusiast;Turning+Ideas+into+Reality+%F0%9F%9A%80" alt="Typing SVG" />
 
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+<br/>
 
-    window.addEventListener('mousemove', handleMouseMove);
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-emonisamuel.co.ke-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emonisamuel.co.ke)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelemoni/)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/Emoni_Samuel/)
+[![Facebook](https://img.shields.io/badge/Facebook-Like-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/profile.php?id=61580678667530)
+[![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emonisamuel54@gmail.com)
 
-  const skills = [
-    {
-      id: 'design',
-      icon: Palette,
-      title: 'Design That Tells Stories',
-      color: 'from-purple-500 via-pink-500 to-purple-600',
-      tools: ['Photoshop', 'Illustrator', 'CorelDRAW', 'Sketch'],
-      description: 'Brand identities • Logos • UI/UX • Marketing materials',
-      details: 'Not just pretty pixels - strategic design that converts'
-    },
-    {
-      id: 'web',
-      icon: Code,
-      title: 'Code That Powers Ideas',
-      color: 'from-blue-500 via-cyan-500 to-blue-600',
-      tools: ['React', 'Vue', 'JavaScript', 'PHP', 'Java', 'Kotlin'],
-      description: 'Web apps • E-commerce • CMS • Mobile-responsive',
-      details: 'Building digital products from concept to launch'
-    },
-    {
-      id: 'data',
-      icon: Database,
-      title: 'AI & Data Solutions',
-      color: 'from-green-500 via-emerald-500 to-green-600',
-      tools: ['Python', 'TensorFlow', 'SQL', 'Machine Learning'],
-      description: 'ML models • Data analysis • Predictive algorithms',
-      details: 'Making machines work smarter, not harder'
-    },
-    {
-      id: 'blockchain',
-      icon: Blocks,
-      title: 'Blockchain Innovation',
-      color: 'from-orange-500 via-red-500 to-orange-600',
-      tools: ['Smart Contracts', 'DeFi', 'Web3', 'Solidity'],
-      description: 'Smart contracts • DeFi apps • Web3 integration',
-      details: 'Building the future of decentralized tech'
-    }
-  ];
+<img src="https://komarev.com/ghpvc/?username=samz-code&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="Profile Views" />
 
-  const socialLinks = [
-    { icon: Globe, label: 'Portfolio', url: 'https://www.emonisamuel.co.ke', color: 'from-indigo-500 to-purple-500' },
-    { icon: Linkedin, label: 'LinkedIn', url: 'https://www.linkedin.com/in/samuelemoni/', color: 'from-blue-600 to-blue-700' },
-    { icon: Instagram, label: 'Instagram', url: 'https://www.instagram.com/Emoni_Samuel/', color: 'from-pink-500 to-purple-600' },
-    { icon: Facebook, label: 'Facebook', url: 'https://facebook.com/profile.php?id=61580678667530', color: 'from-blue-500 to-blue-600' },
-    { icon: Mail, label: 'Email', url: 'mailto:emonisamuel54@gmail.com', color: 'from-red-500 to-orange-500' }
-  ];
+</div>
 
-  const highlights = [
-    { icon: Award, text: '4+ Years Design Experience', color: 'text-purple-400' },
-    { icon: Code, text: 'Full-Stack Developer', color: 'text-cyan-400' },
-    { icon: Target, text: 'BSc Applied CS - Chuka University', color: 'text-green-400' },
-    { icon: Zap, text: 'Available for Projects', color: 'text-yellow-400' }
-  ];
+---
 
-  const whyFollow = [
-    { icon: Sparkles, title: 'Real Projects', desc: 'Design breakdowns, code tutorials, case studies' },
-    { icon: Users, title: 'Learn Together', desc: 'Free resources, honest lessons, collaboration' },
-    { icon: Star, title: 'Fresh Content', desc: 'Regular updates across all platforms' }
-  ];
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-  const goals = [
-    'Master React & Next.js',
-    '3 Full-Stack SaaS Apps',
-    'AI-Powered Tools',
-    'DeFi Dashboard',
-    '24 Technical Articles',
-    'Open-Source Contributions'
-  ];
+### 🎯 What Makes Me Different?
 
-  return (
-    <div 
-      ref={containerRef}
-      className="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-white overflow-x-hidden"
-    >
-      <style>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0) translateX(0); }
-          50% { transform: translateY(-20px) translateX(10px); }
-        }
-        @keyframes slideInUp {
-          from { transform: translateY(50px); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
-        }
-        @keyframes slideInLeft {
-          from { transform: translateX(-50px); opacity: 0; }
-          to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes slideInRight {
-          from { transform: translateX(50px); opacity: 0; }
-          to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes glow {
-          0%, 100% { box-shadow: 0 0 20px rgba(147, 51, 234, 0.5); }
-          50% { box-shadow: 0 0 40px rgba(147, 51, 234, 0.8); }
-        }
-        @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.5; }
-        }
-        @keyframes spin {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        @keyframes gradient {
-          0% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-          100% { background-position: 0% 50%; }
-        }
-        .animate-float { animation: float 6s ease-in-out infinite; }
-        .animate-slideInUp { animation: slideInUp 0.6s ease-out forwards; }
-        .animate-slideInLeft { animation: slideInLeft 0.6s ease-out forwards; }
-        .animate-slideInRight { animation: slideInRight 0.6s ease-out forwards; }
-        .animate-glow { animation: glow 3s ease-in-out infinite; }
-        .animate-pulse { animation: pulse 2s ease-in-out infinite; }
-        .animate-spin-slow { animation: spin 20s linear infinite; }
-        .animate-gradient { animation: gradient 8s ease infinite; background-size: 200% 200%; }
-        
-        .glass {
-          background: rgba(255, 255, 255, 0.05);
-          backdrop-filter: blur(10px);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .glass-strong {
-          background: rgba(255, 255, 255, 0.1);
-          backdrop-filter: blur(20px);
-          border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        
-        .hover-lift {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .hover-lift:hover {
-          transform: translateY(-10px);
-          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-      `}</style>
+**I don't just code. I don't just design.**  
+**I create experiences that matter. ✨**
 
-      {/* Animated background particles */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        {[...Array(30)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-2 h-2 bg-white rounded-full opacity-20"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animation: `float ${5 + Math.random() * 10}s linear infinite`,
-              animationDelay: `${Math.random() * 5}s`
-            }}
-          />
-        ))}
-        
-        {/* Gradient orbs */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl opacity-20 animate-pulse" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500 rounded-full filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }} />
-      </div>
+From crafting pixel-perfect designs to building scalable applications, I bridge the gap between beautiful aesthetics and powerful functionality. Every project is an opportunity to solve real problems and make someone's life easier.
 
-      <div className="max-w-7xl mx-auto px-6 py-12 relative z-10">
-        {/* Hero Section */}
-        <div 
-          className="text-center mb-20 animate-slideInUp"
-          style={{
-            transform: `translate(${mousePos.x}px, ${mousePos.y}px)`,
-            transition: 'transform 0.2s ease-out'
-          }}
-        >
-          <div className="inline-flex items-center gap-2 mb-6 px-6 py-3 glass rounded-full hover-lift animate-glow">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-sm font-medium">Available for Projects</span>
-            <Sparkles className="w-4 h-4 text-yellow-400" />
-          </div>
-          
-          <h1 className="text-7xl font-bold mb-4 animate-gradient bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-            Samuel Emoni
-          </h1>
-          
-          <div className="flex flex-wrap justify-center gap-3 mb-6">
-            {['Creative Technologist', 'Designer', 'Developer', 'Problem Solver'].map((role, i) => (
-              <span 
-                key={i}
-                className="px-4 py-2 glass rounded-full text-sm animate-slideInUp hover-lift"
-                style={{ animationDelay: `${i * 0.1}s` }}
-              >
-                {role}
-              </span>
-            ))}
-          </div>
-          
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 animate-slideInUp" style={{ animationDelay: '0.2s' }}>
-            I don't just code. I don't just design. <span className="text-cyan-400 font-semibold">I create experiences that matter.</span>
-          </p>
+🎓 **BSc Applied Computer Science** - Chuka University  
+🎨 **4+ Years** in Graphic Design (Started 2021)  
+💻 **Full-Stack Developer** with modern tech stack  
+🌍 **Based in Kenya**, working globally  
+⚡ **Status:** 🟢 Available for Projects
 
-          {/* Highlights */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-12">
-            {highlights.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <div 
-                  key={i}
-                  className="glass-strong rounded-xl p-4 hover-lift animate-slideInUp"
-                  style={{ animationDelay: `${0.3 + i * 0.1}s` }}
-                >
-                  <Icon className={`w-6 h-6 ${item.color} mx-auto mb-2`} />
-                  <p className="text-xs text-gray-300">{item.text}</p>
-                </div>
-              );
-            })}
-          </div>
+<br clear="right"/>
 
-          {/* Social Links */}
-          <div className="flex flex-wrap justify-center gap-4">
-            {socialLinks.map((link, i) => {
-              const Icon = link.icon;
-              return (
-                <a
-                  key={i}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group relative"
-                  style={{ animationDelay: `${0.5 + i * 0.1}s` }}
-                >
-                  <div className={`glass-strong rounded-2xl px-6 py-4 hover-lift flex items-center gap-3 animate-slideInUp`}>
-                    <Icon className="w-5 h-5" />
-                    <span className="font-medium">{link.label}</span>
-                    <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                  <div className={`absolute inset-0 bg-gradient-to-r ${link.color} rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity blur-xl`} />
-                </a>
-              );
-            })}
-          </div>
-        </div>
+---
 
-        {/* Why Follow Me Section */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-center mb-12 animate-slideInUp">
-            <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-              Why Follow My Journey?
-            </span>
-          </h2>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            {whyFollow.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <div 
-                  key={i}
-                  className="glass-strong rounded-2xl p-8 hover-lift animate-slideInUp"
-                  style={{ animationDelay: `${i * 0.1}s` }}
-                >
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-xl flex items-center justify-center mb-4 animate-float">
-                    <Icon className="w-8 h-8" />
-                  </div>
-                  <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
-                  <p className="text-gray-400">{item.desc}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+## 🚀 Why Follow My Journey?
 
-        {/* Skills Grid */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-center mb-12 animate-slideInUp">
-            <span className="bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent">
-              What I Actually Do
-            </span>
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            {skills.map((skill, idx) => {
-              const Icon = skill.icon;
-              return (
-                <div
-                  key={skill.id}
-                  className="group relative animate-slideInUp"
-                  style={{ animationDelay: `${idx * 0.15}s` }}
-                  onMouseEnter={() => setActiveCard(skill.id)}
-                  onMouseLeave={() => setActiveCard(null)}
-                >
-                  <div className={`
-                    glass-strong rounded-3xl p-8 hover-lift h-full
-                    transition-all duration-500
-                    ${activeCard === skill.id ? 'scale-105' : ''}
-                  `}>
-                    <div className="relative">
-                      <div className={`
-                        w-20 h-20 rounded-2xl bg-gradient-to-br ${skill.color}
-                        flex items-center justify-center mb-6
-                        transition-transform duration-500
-                        ${activeCard === skill.id ? 'rotate-12 scale-110' : ''}
-                      `}>
-                        <Icon className="w-10 h-10 text-white" />
-                      </div>
-                      
-                      <h3 className="text-2xl font-bold mb-2">{skill.title}</h3>
-                      <p className="text-sm text-gray-400 mb-4">{skill.details}</p>
-                      <p className="text-sm text-cyan-300 mb-6">{skill.description}</p>
-                      
-                      <div className="flex flex-wrap gap-2">
-                        {skill.tools.map((tool, i) => (
-                          <span 
-                            key={i}
-                            className="text-sm px-4 py-2 glass rounded-full border border-white/20 hover:border-white/40 transition-all hover:scale-110"
-                          >
-                            {tool}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Animated border gradient */}
-                  <div className={`
-                    absolute inset-0 bg-gradient-to-r ${skill.color} rounded-3xl opacity-0 
-                    group-hover:opacity-30 transition-opacity blur-xl -z-10
-                  `} />
-                </div>
-              );
-            })}
-          </div>
-        </div>
+<table>
+<tr>
+<td width="33%" valign="top">
 
-        {/* 2025 Goals */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-center mb-12 animate-slideInUp">
-            <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
-              Mission 2025
-            </span>
-          </h2>
-          
-          <div className="glass-strong rounded-3xl p-8 max-w-4xl mx-auto animate-slideInUp hover-lift">
-            <div className="grid md:grid-cols-2 gap-4">
-              {goals.map((goal, i) => (
-                <div 
-                  key={i}
-                  className="flex items-center gap-3 p-4 glass rounded-xl hover:bg-white/10 transition-all animate-slideInLeft"
-                  style={{ animationDelay: `${i * 0.1}s` }}
-                >
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-cyan-400 flex items-center justify-center flex-shrink-0 animate-pulse">
-                    <ChevronRight className="w-5 h-5" />
-                  </div>
-                  <span className="text-sm">{goal}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+### 💡 Real Projects, Real Impact
+I share my journey of building products that solve actual problems:
+- 🎨 **Design breakdowns** of creative process
+- 💻 **Code tutorials** and dev tips
+- 📊 **Project case studies** with results
+- 🎥 **Behind-the-scenes** workflow
 
-        {/* CTA Section */}
-        <div className="text-center glass-strong rounded-3xl p-12 animate-slideInUp hover-lift">
-          <Briefcase className="w-16 h-16 mx-auto mb-6 text-purple-400 animate-float" />
-          <h2 className="text-4xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-              Let's Build Something Amazing
-            </span>
-          </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Available for freelance projects, collaborations, and full-time opportunities
-          </p>
-          
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="mailto:emonisamuel54@gmail.com"
-              className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl font-semibold hover:scale-105 transition-transform flex items-center gap-2 hover-lift"
-            >
-              <Mail className="w-5 h-5" />
-              Start a Project
-            </a>
-            <a
-              href="https://www.emonisamuel.co.ke"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 glass-strong rounded-2xl font-semibold hover:scale-105 transition-transform flex items-center gap-2 hover-lift"
-            >
-              <Globe className="w-5 h-5" />
-              View Portfolio
-            </a>
-          </div>
-        </div>
+</td>
+<td width="33%" valign="top">
 
-        {/* Footer */}
-        <div className="text-center mt-12 text-gray-500 text-sm animate-slideInUp">
-          <p className="mb-2">© 2025 Samuel Emoni • Built with ❤️ & Code</p>
-          <p>BSc Applied Computer Science • Chuka University</p>
-        </div>
-      </div>
-    </div>
-  );
+### 🌟 Learn & Grow Together
+Started design in 2021, now building full-stack apps!
+- ✅ Honest lessons from failures & wins
+- ✅ Free resources and tools
+- ✅ Quick tips to level up
+- ✅ Collaboration opportunities
+
+</td>
+<td width="33%" valign="top">
+
+### 🔥 Fresh Content Regularly
+- 📱 **Instagram:** Design inspiration, UI/UX
+- 💼 **LinkedIn:** Tech trends, updates
+- 👥 **Facebook:** Community, tutorials
+- 🌐 **Website:** Portfolio, case studies
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 What I Actually Do
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="100%" alt="Design" />
+
+### 🎨 Design That Tells Stories
+**Not just pretty pixels - strategic design that converts**
+
+**Creating:**
+- ✨ Brand identities that stand out
+- 🎯 Logos that people remember
+- 💎 UI/UX that users love
+- 🎨 Marketing materials that sell
+
+**Mastered Tools:**  
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
+![CorelDRAW](https://img.shields.io/badge/CorelDRAW-3DBA3D?style=flat-square&logo=coreldraw&logoColor=white)
+![Sketch](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=black)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding" />
+
+### 💻 Code That Powers Ideas
+**Building digital products from concept to launch**
+
+**Developing:**
+- 🚀 Modern web applications
+- 🛒 E-commerce platforms
+- ⚙️ Custom CMS solutions
+- 📱 Mobile-responsive sites
+
+**Tech Stack:**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy.gif" width="100%" alt="AI" />
+
+### 🤖 AI & Data Solutions
+**Making machines work smarter, not harder**
+
+**Working on:**
+- 🧠 Machine Learning models
+- 📊 Data analysis & visualization
+- 🔮 Predictive algorithms
+- 🐍 Python automation
+
+**Focus Areas:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="100%" alt="Blockchain" />
+
+### ⛓️ Blockchain Innovation
+**Building the future of decentralized tech**
+
+**Exploring:**
+- 🔗 Smart contracts
+- 💰 DeFi applications
+- 🌐 Web3 integration
+- 🏦 FinTech solutions
+
+**Technologies:**  
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🛠️ Complete Tech Arsenal
+
+<div align="center">
+
+### 💻 Languages & Frameworks
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+### 🎨 Design & Creative Tools
+
+![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
+![CorelDRAW](https://img.shields.io/badge/-CorelDRAW-3DBA3D?style=for-the-badge&logo=coreldraw&logoColor=white)
+![Sketch](https://img.shields.io/badge/-Sketch-F7B500?style=for-the-badge&logo=sketch&logoColor=black)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+### 🔧 Tools & Platforms
+
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+---
+
+## 🎯 Mission 2025
+
+<div align="center">
+
+```javascript
+const goals2025 = {
+  learning: [
+    "🚀 Advanced React patterns & Next.js",
+    "🐍 AI/ML with Python & TensorFlow", 
+    "⛓️ Smart contract development",
+    "🎨 Advanced UI/UX design systems"
+  ],
+  
+  building: [
+    "3 Full-Stack SaaS Applications",
+    "Personal Design System Library",
+    "AI-Powered Productivity Tool",
+    "DeFi Dashboard Application"
+  ],
+  
+  community: [
+    "📝 24 Technical Articles",
+    "🎥 Design Tutorial Series",
+    "🤝 5+ Open-Source Contributions",
+    "💬 Mentor Aspiring Developers"
+  ],
+  
+  milestone: "Land dream role or launch successful startup 🎯"
 };
+```
 
-export default AnimatedPortfolio;
+</div>
+
+<details>
+<summary><b>📊 Click to see my progress tracking!</b></summary>
+
+<br/>
+
+**Learning Progress:**
+- [x] React fundamentals mastered
+- [x] Python basics completed
+- [ ] Next.js in progress (40%)
+- [ ] TensorFlow learning (20%)
+- [ ] Smart contracts (10%)
+
+**Building Progress:**
+- [x] E-commerce platform deployed
+- [ ] SaaS App #1 (Development - 60%)
+- [ ] Design system (Planning - 30%)
+- [ ] AI tool (Research phase - 15%)
+
+**Community Impact:**
+- [x] 5 articles published
+- [x] 2 open-source contributions
+- [ ] Tutorial series (Scripting - 25%)
+
+</details>
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samz-code&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samz-code&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366f1&ring=6366f1&fire=f59e0b&currStreakLabel=ffffff" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samz-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=samz-code&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366f1&line=6366f1&point=ffffff" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=samz-code&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+
+</div>
+
+---
+
+## 💼 Let's Work Together!
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="200" />
+
+### 🎨 Design Projects
+Brand identity & logos  
+UI/UX for web & mobile  
+Marketing materials  
+Social media graphics
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="200" />
+
+### 💻 Development Work
+Full-stack web apps  
+E-commerce solutions  
+Custom CMS development  
+API integration & more
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif" width="200" />
+
+### 🚀 Collaborations
+Open-source projects  
+Startup partnerships  
+Tech community events  
+Knowledge sharing
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🌟 Why People Choose To Work With Me
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=%22Samuel+doesn't+just+complete+projects+-+he+brings+ideas+to+life%22;%22Creativity+meets+technical+excellence%22;%22Fast%2C+reliable%2C+and+quality-focused%22" alt="Testimonial" />
+
+</div>
+
+| What You Get | Why It Matters |
+|--------------|----------------|
+| ⚡ **Fast & Reliable** | Deadlines are sacred - I deliver on time |
+| 💬 **Clear Communication** | You're always in the loop, no surprises |
+| 🎯 **Quality Focused** | No shortcuts - only excellence |
+| 🧠 **Problem Solver** | Not just a coder or designer - a thinker |
+| 📚 **Continuous Learner** | Always improving, always evolving |
+
+---
+
+## 📫 Choose Your Platform & Let's Connect!
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<a href="https://www.linkedin.com/in/samuelemoni/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+**Professional Networking**  
+Job opportunities & business
+
+</td>
+<td align="center" width="25%">
+
+<a href="https://www.instagram.com/Emoni_Samuel/">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+
+**Creative Content**  
+Design inspiration & UI/UX
+
+</td>
+<td align="center" width="25%">
+
+<a href="https://facebook.com/profile.php?id=61580678667530">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+</a>
+
+**Community**  
+Discussions & tutorials
+
+</td>
+<td align="center" width="25%">
+
+<a href="https://www.emonisamuel.co.ke">
+<img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+
+**Full Portfolio**  
+Complete case studies
+
+</td>
+</tr>
+</table>
+
+### 💬 Or Just Say Hi!
+
+<a href="mailto:emonisamuel54@gmail.com">
+<img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+**I love connecting with fellow creators, developers, and innovators!**  
+Drop a message, share your project, or let's brainstorm together! 🚀
+
+</div>
+
+---
+
+## ⚡ Fun Facts About Me
+
+<img align="right" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" />
+
+- 🎨 Started graphic design journey in 2021
+- 💻 Built my first website at 19
+- 🎓 Graduated with honors in Applied CS
+- ☕ Average 4 cups of coffee per project
+- 🌙 Night owl - best code comes after 10 PM
+- 🎮 Gaming break = creative breakthrough
+- 🚀 Dream: Launch a startup that changes lives
+- 💡 Philosophy: "Technology should be beautiful AND functional"
+
+<br clear="right"/>
+
+---
+
+<div align="center">
+
+### 💭 Words I Live By
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20create%20it&author=Peter%20Drucker" />
+
+<br/><br/>
+
+### 🌊 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br/><br/>
+
+### 🎉 If You Made It This Far...
+
+**You're awesome! 🚀**
+
+Consider ⭐ starring my repos if you find them interesting!  
+💬 Open to feedback, collaboration, and just chatting about tech!  
+🤝 Let's build something amazing together!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+
+**Last Updated:** January 2025 | **Status:** 🟢 Available for Projects
+
+---
+
+<sub>Made with 💜 by Samuel Emoni • Crafted pixel by pixel, coded line by line</sub>
+
+</div>
