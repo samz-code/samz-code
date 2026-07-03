@@ -1,14 +1,17 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Samuel%20A.%20Emoni&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=32" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=1EBCB2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=90&lines=Full-Stack+Developer+%7C+Nairobi%2C+Kenya;Building+Fintech+%26+Healthcare+SaaS;React+%2B+TypeScript+%2B+Supabase;Digital+Systems+Consultant" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&italic=true&size=70&duration=2500&pause=100000&color=1EBCB2&center=true&vCenter=true&width=500&height=110&lines=EMONI" alt="EMONI signature" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=EE7B22&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=90&lines=Graphic+Designer+%7C+Full-Stack+Developer;Nairobi%2C+Kenya;Brand+Identity+%2B+SaaS+Products;Trust+Seed+%C2%B7+Domas+Little+Voices" alt="Typing SVG" />
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-emonisamuel.co.ke-1ebcb2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emonisamuel.co.ke)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelemoni/)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/Emoni_Samuel/)
+[![Facebook](https://img.shields.io/badge/Facebook-Like-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/profile.php?id=61580678667530)
 [![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emonisamuel54@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=samz-code&label=Profile%20Views&color=1ebcb2&style=for-the-badge" alt="Profile Views" />
@@ -17,22 +20,69 @@
 
 ---
 
-### 👋 About Me
+### 👋 About me
 
-I'm a full-stack developer and digital systems consultant based in Nairobi, building **production SaaS platforms** — not demos. Right now that means multi-tenant fintech infrastructure for African microfinance institutions and a full clinical/billing portal for a speech therapy practice, both live end-to-end with real database schemas, real payment integrations, and real users.
+I'm **Emoni Samuel** — a graphic designer and full-stack developer based in Nairobi, Kenya. These aren't two side hustles bolted together; they're one practice. I design the brand, then I build the product that lives up to it. Clients get a single person who can take them from logo to live SaaS platform without a handoff gap in between.
 
-I also design — brand identity, UI systems, and business documents — so the products I build tend to look as considered as they function.
-
+- 🎨 **4+ years** as a graphic designer — brand identity, UI/UX, print and digital campaigns
+- 💻 **Full-stack developer** — React, TypeScript, Vite, Supabase, building production systems, not demos
 - 🏦 Currently building **Trust Seed**, a multi-tenant fintech SaaS for SACCOs & microfinance institutions across Africa
 - 🗣️ Also building **Domas Little Voices**, a client/therapist/admin healthcare portal with M-Pesa billing
 - 🎓 B.Sc. Applied Computer Science — Chuka University
-- 🎨 4+ years in graphic design, brand identity & professional documents
 - 🌍 Based in Nairobi, working with clients across East Africa
 - ⚡ **Status:** Available for freelance & contract work
 
 ---
 
-## 🚀 Featured Work
+## 🎨 Graphic design
+
+Design is where I started in 2021, and it's still half of what I do. I work across brand identity, UI/UX, and long-form print documents — the kind of materials that have to hold up in a boardroom, not just a portfolio grid.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Brand identity & documents**
+- Full company profile documents (multi-page, brand-guided)
+- Logo design & brand guideline systems
+- Pricing sheets, proposals, pitch decks
+- Business cards, letterheads, print collateral
+
+**Recent client work**
+- **Monawanka** — 11-page company profile, brand palette sampled and built from the client's existing logo
+- **Urban Breweries Ltd** — 30+ page social media campaign proposal ("Champe wa Grao!"), covering consumer personas, campaign phases, and a full KSh budget breakdown
+- **KaziLab** — 20-page Visual Production System document plus a dedicated photography pricing guide
+
+</td>
+<td width="50%" valign="top">
+
+**UI/UX & digital design**
+- Product UI design for the platforms I build (Trust Seed, Domas Little Voices)
+- Animated landing pages and portfolio sites (Framer Motion)
+- Social media graphics & marketing creative
+- Design gallery curation with SEO-aware copywriting
+
+**Tools I design in**
+- Adobe Photoshop & Illustrator
+- CorelDRAW
+- Figma
+- Sketch
+
+**How I approach it:** every brand system I design gets carried through consistently — same palette, same type logic — whether it ends up on a business card or inside a live web app.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![See design work](https://img.shields.io/badge/See_design_case_studies-emonisamuel.co.ke-ee7b22?style=for-the-badge)](https://www.emonisamuel.co.ke)
+
+</div>
+
+---
+
+## 💻 Development — featured work
 
 <table>
 <tr>
@@ -64,23 +114,15 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 </tr>
 </table>
 
-<div align="center">
-
-**Also delivered:** brand identity & company profile documents · a 30+ page social media campaign proposal (Urban Breweries Ltd) · a personal portfolio site with an animated project gallery
-
-[![Portfolio](https://img.shields.io/badge/See_full_case_studies-emonisamuel.co.ke-1ebcb2?style=for-the-badge)](https://www.emonisamuel.co.ke)
-
-</div>
-
 ---
 
-## 💼 What I Can Deliver
+## 💼 What I can deliver
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Full-Stack Web Applications
+### 💻 Full-stack web applications
 - SaaS platforms with multi-tenant architecture
 - Supabase backends — schema design, RLS policies, auth, Edge Functions
 - Client/admin/role-based portals & dashboards
@@ -91,7 +133,7 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 </td>
 <td width="50%" valign="top">
 
-### 🎨 Design & Brand Systems
+### 🎨 Design & brand systems
 - Brand identity — logos, palettes, guidelines
 - UI/UX design for web & mobile products
 - Professional business documents (proposals, company profiles, pricing sheets)
@@ -106,7 +148,7 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech & design stack
 
 <div align="center">
 
@@ -118,19 +160,20 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-**Backend & Data**
+**Backend & data**
 
 ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-**Design**
+**Graphic design**
 
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![CorelDRAW](https://img.shields.io/badge/-CorelDRAW-3DBA3D?style=for-the-badge&logo=coreldraw&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Sketch](https://img.shields.io/badge/-Sketch-F7B500?style=for-the-badge&logo=sketch&logoColor=black)
 
 **Tools**
 
@@ -143,7 +186,7 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub stats
 
 <div align="center">
 
@@ -157,22 +200,23 @@ A three-role portal (client / therapist / admin) covering clinical intake, billi
 
 ---
 
-## 📫 Let's Work Together
+## 📫 Let's work together
 
 <div align="center">
 
-I'm available for full-stack development, Supabase/backend architecture, M-Pesa & payment integrations, and brand/document design work.
+I'm available for brand identity & design work, full-stack development, Supabase/backend architecture, M-Pesa & payment integrations, and professional document design.
 
 <a href="mailto:emonisamuel54@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/samuelemoni/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.instagram.com/Emoni_Samuel/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
 <a href="https://www.emonisamuel.co.ke"><img src="https://img.shields.io/badge/Portfolio-1ebcb2?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
 
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 
-**Last Updated:** July 2026 · **Status:** 🟢 Available for Projects
+**Last updated:** July 2026 · **Status:** 🟢 Available for projects
 
-<sub>Built by Samuel A. Emoni — Nairobi, Kenya</sub>
+<sub>Designed and built by Emoni Samuel — Nairobi, Kenya</sub>
 
 </div>
