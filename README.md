@@ -1,465 +1,178 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Samuel%20Emoni&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Samuel%20A.%20Emoni&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=32" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Creative+Technologist+%7C+Designer;Full-Stack+Developer;AI+%26+Blockchain+Enthusiast;Turning+Ideas+into+Reality+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=1EBCB2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=90&lines=Full-Stack+Developer+%7C+Nairobi%2C+Kenya;Building+Fintech+%26+Healthcare+SaaS;React+%2B+TypeScript+%2B+Supabase;Digital+Systems+Consultant" alt="Typing SVG" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-emonisamuel.co.ke-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emonisamuel.co.ke)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-emonisamuel.co.ke-1ebcb2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emonisamuel.co.ke)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelemoni/)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/Emoni_Samuel/)
-[![Facebook](https://img.shields.io/badge/Facebook-Like-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/profile.php?id=61580678667530)
 [![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emonisamuel54@gmail.com)
 
-<img src="https://komarev.com/ghpvc/?username=samz-code&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=samz-code&label=Profile%20Views&color=1ebcb2&style=for-the-badge" alt="Profile Views" />
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+### 👋 About Me
 
-### 🎯 What Makes Me Different?
+I'm a full-stack developer and digital systems consultant based in Nairobi, building **production SaaS platforms** — not demos. Right now that means multi-tenant fintech infrastructure for African microfinance institutions and a full clinical/billing portal for a speech therapy practice, both live end-to-end with real database schemas, real payment integrations, and real users.
 
-**I don't just code. I don't just design.**  
-**I create experiences that matter. ✨**
+I also design — brand identity, UI systems, and business documents — so the products I build tend to look as considered as they function.
 
-From crafting pixel-perfect designs to building scalable applications, I bridge the gap between beautiful aesthetics and powerful functionality. Every project is an opportunity to solve real problems and make someone's life easier.
-
-🎓 **BSc Applied Computer Science** - Chuka University  
-🎨 **4+ Years** in Graphic Design (Started 2021)  
-💻 **Full-Stack Developer** with modern tech stack  
-🌍 **Based in Kenya**, working globally  
-⚡ **Status:** 🟢 Available for Projects
-
-<br clear="right"/>
+- 🏦 Currently building **Trust Seed**, a multi-tenant fintech SaaS for SACCOs & microfinance institutions across Africa
+- 🗣️ Also building **Domas Little Voices**, a client/therapist/admin healthcare portal with M-Pesa billing
+- 🎓 B.Sc. Applied Computer Science — Chuka University
+- 🎨 4+ years in graphic design, brand identity & professional documents
+- 🌍 Based in Nairobi, working with clients across East Africa
+- ⚡ **Status:** Available for freelance & contract work
 
 ---
 
-## 🚀 Why Follow My Journey?
+## 🚀 Featured Work
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 💡 Real Projects, Real Impact
-I share my journey of building products that solve actual problems:
-- 🎨 **Design breakdowns** of creative process
-- 💻 **Code tutorials** and dev tips
-- 📊 **Project case studies** with results
-- 🎥 **Behind-the-scenes** workflow
+### 🏦 Trust Seed
+**Multi-tenant fintech SaaS for SACCOs & MFIs**
 
-</td>
-<td width="33%" valign="top">
+A platform serving multiple microfinance institutions from one codebase — tenant isolation, savings products, transfers between branches, daily cash opening/closing reconciliation, role-based approvals, and full user/role management.
 
-### 🌟 Learn & Grow Together
-Started design in 2021, now building full-stack apps!
-- ✅ Honest lessons from failures & wins
-- ✅ Free resources and tools
-- ✅ Quick tips to level up
-- ✅ Collaboration opportunities
+**Built with:** React · TypeScript · Vite · Supabase (Postgres + RLS)
+
+**Shipped modules:** Savings Products, Transfers, Branch Transfers, Daily Opening/Closing, Approvals, Users & Roles, Auth
+**In progress:** Reports, Float Management, Forex
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 🔥 Fresh Content Regularly
-- 📱 **Instagram:** Design inspiration, UI/UX
-- 💼 **LinkedIn:** Tech trends, updates
-- 👥 **Facebook:** Community, tutorials
-- 🌐 **Website:** Portfolio, case studies
+### 🗣️ Domas Little Voices
+**Speech therapy clinic management portal**
+
+A three-role portal (client / therapist / admin) covering clinical intake, billing, and payments for a real speech therapy practice — [domaslittlevoicesspeechtherapyhub.org](https://domaslittlevoicesspeechtherapyhub.org)
+
+**Built with:** React · TypeScript · Supabase Edge Functions
+
+**Key features:** M-Pesa STK Push via Daraja API, fillable clinical intake forms (adult & child), Excel report exports, invoice & billing management, animated auth flows, Kenya Data Protection Act–compliant policy pages
 
 </td>
 </tr>
 </table>
-
----
-
-## 💼 What I Actually Do
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Also delivered:** brand identity & company profile documents · a 30+ page social media campaign proposal (Urban Breweries Ltd) · a personal portfolio site with an animated project gallery
 
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="100%" alt="Design" />
-
-### 🎨 Design That Tells Stories
-**Not just pretty pixels - strategic design that converts**
-
-**Creating:**
-- ✨ Brand identities that stand out
-- 🎯 Logos that people remember
-- 💎 UI/UX that users love
-- 🎨 Marketing materials that sell
-
-**Mastered Tools:**  
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
-![CorelDRAW](https://img.shields.io/badge/CorelDRAW-3DBA3D?style=flat-square&logo=coreldraw&logoColor=white)
-![Sketch](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=black)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding" />
-
-### 💻 Code That Powers Ideas
-**Building digital products from concept to launch**
-
-**Developing:**
-- 🚀 Modern web applications
-- 🛒 E-commerce platforms
-- ⚙️ Custom CMS solutions
-- 📱 Mobile-responsive sites
-
-**Tech Stack:**  
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy.gif" width="100%" alt="AI" />
-
-### 🤖 AI & Data Solutions
-**Making machines work smarter, not harder**
-
-**Working on:**
-- 🧠 Machine Learning models
-- 📊 Data analysis & visualization
-- 🔮 Predictive algorithms
-- 🐍 Python automation
-
-**Focus Areas:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="100%" alt="Blockchain" />
-
-### ⛓️ Blockchain Innovation
-**Building the future of decentralized tech**
-
-**Exploring:**
-- 🔗 Smart contracts
-- 💰 DeFi applications
-- 🌐 Web3 integration
-- 🏦 FinTech solutions
-
-**Technologies:**  
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-
-</td>
-</tr>
-</table>
+[![Portfolio](https://img.shields.io/badge/See_full_case_studies-emonisamuel.co.ke-1ebcb2?style=for-the-badge)](https://www.emonisamuel.co.ke)
 
 </div>
 
 ---
 
-## 🛠️ Complete Tech Arsenal
+## 💼 What I Can Deliver
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Full-Stack Web Applications
+- SaaS platforms with multi-tenant architecture
+- Supabase backends — schema design, RLS policies, auth, Edge Functions
+- Client/admin/role-based portals & dashboards
+- M-Pesa / Daraja API payment integration
+- Data exports (Excel/SheetJS), reporting pages
+- Responsive, animated UI with React + Tailwind + Framer Motion
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 Design & Brand Systems
+- Brand identity — logos, palettes, guidelines
+- UI/UX design for web & mobile products
+- Professional business documents (proposals, company profiles, pricing sheets)
+- Marketing & social media creative
+- Pitch decks and client-facing collateral
+
+</td>
+</tr>
+</table>
+
+**How I work:** complete, runnable deliverables — no placeholders. Clear scope, honest timelines, and documentation that outlives the handoff.
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### 💻 Languages & Frameworks
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Frontend**
 
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Backend & Data**
+
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-### 🎨 Design & Creative Tools
+**Design**
 
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![CorelDRAW](https://img.shields.io/badge/-CorelDRAW-3DBA3D?style=for-the-badge&logo=coreldraw&logoColor=white)
-![Sketch](https://img.shields.io/badge/-Sketch-F7B500?style=for-the-badge&logo=sketch&logoColor=black)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-### 🔧 Tools & Platforms
+**Tools**
 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
 ---
 
-## 🎯 Mission 2025
+## 📊 GitHub Stats
 
 <div align="center">
 
-```javascript
-const goals2025 = {
-  learning: [
-    "🚀 Advanced React patterns & Next.js",
-    "🐍 AI/ML with Python & TensorFlow", 
-    "⛓️ Smart contract development",
-    "🎨 Advanced UI/UX design systems"
-  ],
-  
-  building: [
-    "3 Full-Stack SaaS Applications",
-    "Personal Design System Library",
-    "AI-Powered Productivity Tool",
-    "DeFi Dashboard Application"
-  ],
-  
-  community: [
-    "📝 24 Technical Articles",
-    "🎥 Design Tutorial Series",
-    "🤝 5+ Open-Source Contributions",
-    "💬 Mentor Aspiring Developers"
-  ],
-  
-  milestone: "Land dream role or launch successful startup 🎯"
-};
-```
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samz-code&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1ebcb2&icon_color=1ebcb2&text_color=ffffff" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samz-code&theme=tokyonight&hide_border=true&background=0D1117&stroke=1ebcb2&ring=1ebcb2&fire=ee7b22&currStreakLabel=ffffff" />
 
-</div>
-
-<details>
-<summary><b>📊 Click to see my progress tracking!</b></summary>
-
-<br/>
-
-**Learning Progress:**
-- [x] React fundamentals mastered
-- [x] Python basics completed
-- [ ] Next.js in progress (40%)
-- [ ] TensorFlow learning (20%)
-- [ ] Smart contracts (10%)
-
-**Building Progress:**
-- [x] E-commerce platform deployed
-- [ ] SaaS App #1 (Development - 60%)
-- [ ] Design system (Planning - 30%)
-- [ ] AI tool (Research phase - 15%)
-
-**Community Impact:**
-- [x] 5 articles published
-- [x] 2 open-source contributions
-- [ ] Tutorial series (Scripting - 25%)
-
-</details>
-
----
-
-## 📊 GitHub Stats & Activity
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samz-code&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samz-code&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366f1&ring=6366f1&fire=f59e0b&currStreakLabel=ffffff" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samz-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=samz-code&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366f1&line=6366f1&point=ffffff" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=samz-code&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samz-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1ebcb2&text_color=ffffff" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=samz-code&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=1ebcb2&line=1ebcb2&point=ffffff" />
 
 </div>
 
 ---
 
-## 💼 Let's Work Together!
+## 📫 Let's Work Together
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
+I'm available for full-stack development, Supabase/backend architecture, M-Pesa & payment integrations, and brand/document design work.
 
-<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="200" />
-
-### 🎨 Design Projects
-Brand identity & logos  
-UI/UX for web & mobile  
-Marketing materials  
-Social media graphics
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="200" />
-
-### 💻 Development Work
-Full-stack web apps  
-E-commerce solutions  
-Custom CMS development  
-API integration & more
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif" width="200" />
-
-### 🚀 Collaborations
-Open-source projects  
-Startup partnerships  
-Tech community events  
-Knowledge sharing
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🌟 Why People Choose To Work With Me
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=%22Samuel+doesn't+just+complete+projects+-+he+brings+ideas+to+life%22;%22Creativity+meets+technical+excellence%22;%22Fast%2C+reliable%2C+and+quality-focused%22" alt="Testimonial" />
-
-</div>
-
-| What You Get | Why It Matters |
-|--------------|----------------|
-| ⚡ **Fast & Reliable** | Deadlines are sacred - I deliver on time |
-| 💬 **Clear Communication** | You're always in the loop, no surprises |
-| 🎯 **Quality Focused** | No shortcuts - only excellence |
-| 🧠 **Problem Solver** | Not just a coder or designer - a thinker |
-| 📚 **Continuous Learner** | Always improving, always evolving |
-
----
-
-## 📫 Choose Your Platform & Let's Connect!
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-<a href="https://www.linkedin.com/in/samuelemoni/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-**Professional Networking**  
-Job opportunities & business
-
-</td>
-<td align="center" width="25%">
-
-<a href="https://www.instagram.com/Emoni_Samuel/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-
-**Creative Content**  
-Design inspiration & UI/UX
-
-</td>
-<td align="center" width="25%">
-
-<a href="https://facebook.com/profile.php?id=61580678667530">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-</a>
-
-**Community**  
-Discussions & tutorials
-
-</td>
-<td align="center" width="25%">
-
-<a href="https://www.emonisamuel.co.ke">
-<img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-
-**Full Portfolio**  
-Complete case studies
-
-</td>
-</tr>
-</table>
-
-### 💬 Or Just Say Hi!
-
-<a href="mailto:emonisamuel54@gmail.com">
-<img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-**I love connecting with fellow creators, developers, and innovators!**  
-Drop a message, share your project, or let's brainstorm together! 🚀
-
-</div>
-
----
-
-## ⚡ Fun Facts About Me
-
-<img align="right" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" />
-
-- 🎨 Started graphic design journey in 2021
-- 💻 Built my first website at 19
-- 🎓 Graduated with honors in Applied CS
-- ☕ Average 4 cups of coffee per project
-- 🌙 Night owl - best code comes after 10 PM
-- 🎮 Gaming break = creative breakthrough
-- 🚀 Dream: Launch a startup that changes lives
-- 💡 Philosophy: "Technology should be beautiful AND functional"
-
-<br clear="right"/>
-
----
-
-<div align="center">
-
-### 💭 Words I Live By
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20create%20it&author=Peter%20Drucker" />
+<a href="mailto:emonisamuel54@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/samuelemoni/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.emonisamuel.co.ke"><img src="https://img.shields.io/badge/Portfolio-1ebcb2?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
 
 <br/><br/>
-
-### 🌊 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/samz-code/samz-code/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br/><br/>
-
-### 🎉 If You Made It This Far...
-
-**You're awesome! 🚀**
-
-Consider ⭐ starring my repos if you find them interesting!  
-💬 Open to feedback, collaboration, and just chatting about tech!  
-🤝 Let's build something amazing together!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 
-**Last Updated:** January 2025 | **Status:** 🟢 Available for Projects
+**Last Updated:** July 2026 · **Status:** 🟢 Available for Projects
 
----
-
-<sub>Made with 💜 by Samuel Emoni • Crafted pixel by pixel, coded line by line</sub>
+<sub>Built by Samuel A. Emoni — Nairobi, Kenya</sub>
 
 </div>
